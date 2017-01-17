@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="Login_PCP"
+    errors="0" failures="1" hostname="" id="" package="Login_PCP" skipped="0"
+    tests="3" time="7.986" timestamp="Tue, 17 Jan 2017 12:15:52 GMT">
+  
+    <testcase name="Enetr login credentials" time="1.330" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify home page" time="4.154" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Search patient" time="2.502" assertions="2">
+
+      <failure message="Testing if element &lt;div[data-reactid=&#39;.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0&#39;]&gt; contains text: &quot;Chinmayee_1&quot;.">    at Object.containsText (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Verify_Patient (/home/sproutlogix/QH/JSWorkspace/POC_Copy/page_objects/pcp/HomePage.js:32:25)
+    at Object.Search patient (/home/sproutlogix/QH/JSWorkspace/POC_Copy/tests/Login_PCP.js:29:14)
+    at Module.call (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/module.js:62:34)
+    at /home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/testcase.js:70:29</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

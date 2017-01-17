@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Search_Patient"
+    errors="2" failures="0" hostname="" id="" package="Search_Patient" skipped="0"
+    tests="1" time="0.4420" timestamp="Tue, 17 Jan 2017 07:02:36 GMT">
+  
+    <testcase name="Search patient" time="0.4420" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;input[name=&#39;search&#39;]&quot; using: css selector
+    at Object.setValue (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Search_Patient_Name (/home/sproutlogix/QH/JSWorkspace/POC_Copy/page_objects/pcp/HomePage.js:22:18)
+    at Object.Search patient (/home/sproutlogix/QH/JSWorkspace/POC_Copy/tests/Search_Patient.js:9:18)
+    at Module.call (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/module.js:62:34)
+    at /home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:796:13)
+    at /home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:137:13)
+ERROR: Unable to locate element: &quot;input[name=&#39;search&#39;]&quot; using: css selector
+    at Object.setValue (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Search_Patient_Name (/home/sproutlogix/QH/JSWorkspace/POC_Copy/page_objects/pcp/HomePage.js:23:18)
+    at Object.Search patient (/home/sproutlogix/QH/JSWorkspace/POC_Copy/tests/Search_Patient.js:9:18)
+    at Module.call (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/module.js:62:34)
+    at /home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:796:13)
+    at /home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/home/sproutlogix/QH/JSWorkspace/POC_Copy/nightwatch/node_modules/q/q.js:137:13)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

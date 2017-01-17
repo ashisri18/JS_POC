@@ -1,0 +1,81 @@
+17:45:52.312 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+17:45:52.312 INFO - Launching a standalone Selenium Server
+2017-01-17 17:45:52.326:INFO::main: Logging initialized @174ms
+17:45:52.369 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+17:45:52.369 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+17:45:52.369 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:45:52.369 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+17:45:52.369 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:45:52.369 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:45:52.370 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-01-17 17:45:52.398:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2017-01-17 17:45:52.414:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@5f375618{/,null,AVAILABLE}
+2017-01-17 17:45:52.426:INFO:osjs.ServerConnector:main: Started ServerConnector@2c8f1f7d{HTTP/1.1}{0.0.0.0:4444}
+2017-01-17 17:45:52.426:INFO:osjs.Server:main: Started @274ms
+17:45:52.427 INFO - Selenium Server is up and running
+17:45:52.593 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:45:52.617 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login PCP, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+17:45:52.629 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login PCP, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426924 (649f9b868f6783ec9de71c123212b908bf3b232e) on port 24377
+Only local connections are allowed.
+17:45:52.872 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+17:45:53.176 INFO - Detected dialect: OSS
+17:45:53.195 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login PCP, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+17:45:53.208 INFO - Executing: [get: https://stage-pcp.quartethealth.com/])
+17:46:36.417 INFO - Done: [get: https://stage-pcp.quartethealth.com/]
+17:46:36.435 INFO - Executing: [maximise window])
+17:46:36.580 INFO - Done: [maximise window]
+17:46:36.584 INFO - Executing: [get title])
+17:46:36.591 INFO - Done: [get title]
+17:46:36.599 INFO - Executing: [find element: By.cssSelector: input[name='username']])
+17:46:36.625 INFO - Done: [find element: By.cssSelector: input[name='username']]
+17:46:36.632 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='username']], [a, s, r, i, v, a, s, t, a, v, a, +, s, t, a, g, e, @, q, u, a, r, t, e, t, h, e, a, l, t, h, ., c, o, m]])
+17:46:37.332 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='username']], [a, s, r, i, v, a, s, t, a, v, a, +, s, t, a, g, e, @, q, u, a, r, t, e, t, h, e, a, l, t, h, ., c, o, m]]
+17:46:37.336 INFO - Executing: [find element: By.cssSelector: input[name='password']])
+17:46:37.361 INFO - Done: [find element: By.cssSelector: input[name='password']]
+17:46:37.365 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='password']], [S, r, i, v, a, s, t, a, v, a, 1, 8]])
+17:46:37.645 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='password']], [S, r, i, v, a, s, t, a, v, a, 1, 8]]
+17:46:37.650 INFO - Executing: [find element: By.cssSelector: input[value='Log In']])
+17:46:37.666 INFO - Done: [find element: By.cssSelector: input[value='Log In']]
+17:46:37.669 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[value='Log In']]])
+17:46:37.752 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[value='Log In']]]
+17:46:37.764 INFO - Executing: [find elements: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']])
+17:46:37.788 INFO - Done: [find elements: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']]
+17:46:38.293 INFO - Executing: [find elements: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']])
+17:46:41.839 INFO - Done: [find elements: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']]
+17:46:41.851 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: span[data-reactid='.0.0.0.0.1.1.0.1']]])
+17:46:41.865 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: span[data-reactid='.0.0.0.0.1.1.0.1']]]
+17:46:41.869 INFO - Executing: [find element: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']])
+17:46:41.886 INFO - Done: [find element: By.cssSelector: span[data-reactid='.0.0.0.0.1.1.0.1']]
+17:46:41.889 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: span[data-reactid='.0.0.0.0.1.1.0.1']]])
+17:46:41.907 INFO - Done: [get text: 3 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: span[data-reactid='.0.0.0.0.1.1.0.1']]]
+17:46:41.916 INFO - Executing: [find element: By.cssSelector: input[name='search']])
+17:46:41.932 INFO - Done: [find element: By.cssSelector: input[name='search']]
+17:46:41.938 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='search']], [C, h, i, n, m, a, y, e, e, _, 1]])
+17:46:42.153 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='search']], [C, h, i, n, m, a, y, e, e, _, 1]]
+17:46:42.157 INFO - Executing: [find element: By.cssSelector: input[name='search']])
+17:46:42.180 INFO - Done: [find element: By.cssSelector: input[name='search']]
+17:46:42.184 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='search']], []])
+17:46:42.213 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: input[name='search']], []]
+17:46:42.219 INFO - Executing: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:42.238 INFO - Done: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:42.744 INFO - Executing: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:42.750 INFO - Done: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:43.255 INFO - Executing: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:43.261 INFO - Done: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:43.768 INFO - Executing: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:43.774 INFO - Done: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:44.278 INFO - Executing: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:44.284 INFO - Done: [find elements: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:44.287 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]])
+17:46:44.301 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]]
+17:46:44.305 INFO - Executing: [find element: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']])
+17:46:44.319 INFO - Done: [find element: By.cssSelector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]
+17:46:44.321 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]])
+17:46:44.336 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (3924dad7d47e36bf747826cc45a4004a)] -> css selector: div[data-reactid='.0.0.0.1.0.1.0.0.0.$0.$=1$patient.0.0']]]
+17:46:44.340 INFO - Executing: [delete session: 78620cb4-9d4c-494f-aa5c-bcd20a70599a])
+17:46:44.409 INFO - Done: [delete session: 78620cb4-9d4c-494f-aa5c-bcd20a70599a]

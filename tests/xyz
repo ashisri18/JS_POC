@@ -1,0 +1,29 @@
+/*
+var extend = function(target){
+    var sources = [].slice.call(arguments,1);
+    sources.forEach(function (source){
+       for (var prop in source) {
+           target[prop] = source[prop];
+       }
+    });
+    return target;
+};
+
+var io = require("./globals.js")
+module.exports = extend(module.exports, io);
+
+var loginPCP = require("./tests/Login_PCP.js")
+module.exports = extend(module.exports, loginPCP);
+
+var searchPatient = require("./tests/Search_Patient.js")
+module.exports = extend(module.exports, searchPatient);*/
+
+
+
+
+
+
+
+
+Error while running setValue command: Provided locating strategy is not supported: xpath selector. It must be one of the following:
+class name, css selector, id, name, link text, partial link text, tag name, xpath
